@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+ul li{  
+    cursor: pointer;
+    align-items: center;
+    padding: .5rem;
+}
+ul li:hover{
+    background-color: rgb(111, 115, 119);
+    border-radius: 30px;
+}
+ul{
+    align-items: center;
+    display:inline ;
+    
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-hig{
+    max-height: 500px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgb(165, 168, 167) !important;
+    display: flex;
+    justify-content: center;
+     margin-top: 20rem;
+}
+
+input{
+    background-color: rgb(208, 212, 215);
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li span{
+    float: right;
+    padding-inline: .5rem;
+    border-radius: 50px;
+    
+}
+ul li span:hover{
+    background-color: rgb(150, 149, 149);
+}

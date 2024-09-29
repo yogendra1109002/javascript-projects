@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #imaage{
+            aspect-ratio: 3/2;
+            object-fit: contain;
+            /* mix-blend-mode: color-burn; */
+        }
+    </style>
+    <script>
+
+        function clickM(state){
+        
+            if(state == 'on'){
+                document.body.style.backgroundColor='yellow';
+                document.getElementById('imaage').setAttribute('src','img/dowon.png');
+                
+            }else{
+                document.body.style.backgroundColor='black';
+                document.getElementById('imaage').setAttribute('src','img/off1.jpeg');
+        
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <img src="img/off.png" width="200px" alt="blub" id="imaage">
+    <button onclick="clickM('on')">ON</button>
+    <button onclick="clickM('off')">OFF</button>
+    
+
+
+
+    <script>
+
+
+    </script>
+</body>
+</html>
